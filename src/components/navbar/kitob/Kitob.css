@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.oddi{
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+.Kitob{
+    width: 100%;
+    height: 400vh;
+    background: rgba(77, 95, 105, 0.73);
+    padding-top: 5px;
+}
+.Book{
+    width: 100%;
+    height: 70px;
+    background: orange;
+    display: flex;
+    gap: 100px;
+}
+.Book>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 35px 0 0 0;
+}
+.Book>:nth-child(2){
+    margin-left: 50px;
+}
+.Book>h1{
+    margin: 20px 0 0 200px;
+}
+.oddi>input{
+    width: 60%;
+    height: 55%;
+    font-size: 18px;
+    color: black;
+    border: 2px solid gray;
+    padding-left: 10px;
+    margin: 10px 0 0 0;
+    filter: drop-shadow(0 0 5px black);
+}
+.Img>img{
+    width: 79%;
+    height: 400px;
+    margin-top: 10px;
+}
