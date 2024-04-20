@@ -25,23 +25,10 @@ import Logo22 from '../../assests/marker2.jpg'
 import Logo23 from '../../assests/ruchka.jpg'
 import Logo24 from '../../assests/uchburchak.jpg'
 import Logo25 from '../../assests/ruchka2.jpg'
-import Log1 from '../../assests/short.png'
 import { Link } from 'react-router-dom'
 
 
 function Main() {
-    // var animateButton = function (e) {
-    //     e.preventFefault;
-    //     e.target.clasList.remove('animate');
-    //     e.target.clasList.add('animate');
-    //     setTimeout(function (){
-    //         e.target.clasList.remove('animate');
-    //     }, 700);
-    // }
-    // var dubblyButton = document.getElementsByClassName("dubbly-button");
-    // for (var i = 0; i < dubblyButton.length; i++){
-    //     dubblyButton[i].addEventListener('click', animateButton, false);
-    // }
 
     const Data = [
         { img: Logo1, ism: 'Chiqargich', narx: ' 2000 som' },
@@ -70,7 +57,7 @@ function Main() {
         { img: Logo25, ism: 'Ruchka', narx: ' 4000 som' },
     ]
     const Doir = [
-        {ism: 'Sport kiyimlar', img: Log1},
+        {ism: 'Sport kiyimlar'},
         {ism: ''},
         {ism: 'Kitob'},
         {ism: 'Kitob'},
@@ -116,7 +103,6 @@ function Main() {
                         return(
                             <div className="boxw">
                                 <h2>{value.ism}</h2>
-                                <img src={value.img} />
                             </div>
                         )
                     })

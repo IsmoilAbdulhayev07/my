@@ -187,6 +187,7 @@
     align-items: center;
     border: none;
     transform: rotate(15deg);
+    transition: .5s;
 }
 
 .boxw:hover{
@@ -195,6 +196,7 @@
     height: 90px;
     border-radius: 50%;
     transition: .5s;
+    transform: scale(1.1);
 }
 .boxw>img{
     width: 100px;
