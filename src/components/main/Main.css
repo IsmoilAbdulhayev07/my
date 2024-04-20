@@ -202,3 +202,9 @@
     width: 100px;
     color: white;
 }
+@media only screen and (max-width: 420px) {
+    .boxo{
+        width: 420px;
+        height: 70px;
+    }
+}
