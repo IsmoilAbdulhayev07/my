@@ -246,7 +246,7 @@
     .img>img{
         width: 320px;
         height: 100px;
-        margin: -20px 0 0 -240px;
+        margin: -20px 0 0 -250px;
     }
     .boxX>input{
         width: 250px ;
@@ -274,17 +274,18 @@
         height: 1000vh;
     }
     .Map{
-        padding: 10px  0 0 0;
+        padding: 10px  50px 0 0;
         display: flex;
-        gap: 5px;
+        gap: 0;
     }
     .boxb{
-        width: 180px;
+        width: 150px;
         height: 250px;
         font-size: 10px;
+        margin: 15px 0 0 0;
     }
     .boxb>img{
-        width: 70%;
+        width: 60%;
     }
     .plas{
         width: 80%;
@@ -292,10 +293,10 @@
         font-size: 5px;
     }
     .plas>span{
-        margin: -10px 0 0 130px;
+        margin: -10px 0 0 100px;
     }
     .plas>p{
-        margin: -10px 0 0 -25px;
+        margin: -10px 0 0 -22px;
     }
     .Footer{
         margin: 2700px  0 0 0;
