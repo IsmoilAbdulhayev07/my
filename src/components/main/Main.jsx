@@ -57,8 +57,8 @@ function Main() {
         { img: Logo25, ism: 'Ruchka', narx: ' 4000 som' },
     ]
     const Doir = [
-        {ism: 'Sport kiyimlar'},
-        {ism: ''},
+        {ism: 'Kitob'},
+        {ism: 'Kitob'},
         {ism: 'Kitob'},
         {ism: 'Kitob'},
         {ism: 'Kitob'},
@@ -74,9 +74,8 @@ function Main() {
 
                 <div className="box1">
                     <div className='Name'>
-                        <span>UZB</span>
-                        <p>online</p>
-                        <h3>Maktab</h3>
+                        <p>Online</p>
+                        <h3>Shop</h3>
                         <h1>$</h1>
                         <h2>$</h2>
                         <h4>$</h4>
