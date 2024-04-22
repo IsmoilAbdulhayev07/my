@@ -23,15 +23,11 @@
     display: flex;
     cursor: pointer;
 }
-.Name>span{
+.Name>p{
     font-size: 28px;
     margin: 20px 0 0 200px;
 }
-.Name>p{
-    font-size: 25px;
-    margin: 15px 0 0 0;
-    color: orange;
-}
+
 .Name>h3{
     font-size: 25px;
     margin: 22px 0 0 0;
@@ -188,6 +184,7 @@
     border: none;
     transform: rotate(15deg);
     transition: .5s;
+
 }
 
 .boxw:hover{
@@ -261,6 +258,7 @@
         width: 380px;
         height: 50px;
         margin: -240px 0 0 0;
+        padding: 10px 30px 0 0;
     }
     .boxw{
         width: 30px;
@@ -274,7 +272,7 @@
         height: 1000vh;
     }
     .Map{
-        padding: 10px  50px 0 0;
+        padding: 10px  90px 0 0;
         display: flex;
         gap: 0;
     }
